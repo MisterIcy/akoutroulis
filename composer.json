@@ -1,0 +1,38 @@
+{
+    "name": "akoutroulis/akoutroulis",
+    "description": "Personal Website",
+    "autoload": {
+        "psr-4": {
+            "Akoutroulis\\Akoutroulis\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexandros Koutroulis",
+            "email": "icyd3mon@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-pdo_mysql": "*",
+        "ext-redis": "*",
+        "vlucas/phpdotenv": "^5.4",
+        "php-di/php-di": "^6.3",
+        "monolog/monolog": "^2.0",
+        "sunrise/http-router": "^2.0",
+        "sunrise/http-message": "^2.0",
+        "sunrise/http-server-request": "^2.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "doctrine/orm": "^2.10",
+        "doctrine/dbal": "^3.1",
+        "symfony/cache": "^5.4"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.0",
+        "phpstan/phpstan-strict-rules": "^1.0",
+        "squizlabs/php_codesniffer": "^3.6",
+        "roave/security-advisories": "dev-latest"
+    }
+}
